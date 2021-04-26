@@ -10,10 +10,30 @@
 
 ### VNet concept
 
-- Address space: When createing a VNet, you must specify a custom private IP address space using public and private(RFC 1918) addresss.
+- Address space: When createing a VNet, you must specify a custom private IP address space using public and private(RFC 1918) addresss. 
+- Subnets: 
+- Regions:
+- Subscription
 
+-> IP public mặc định là dynamic, nếu muốn dùng static thì trả phí
+-> If xài máy ảo mà sửa trong card mạng thì không được mặc dù gán tĩnh
+-> Trong virtual thì mặc định dùng ip private, còn ip public để bên ngoài truy cập vào
+-> Point to site: 
+-> Site to site:
+-> ExpressRoute: thuê đường truyền riêng thì dài
+
+-> VPN: tốn phí thuê vpn gateway -> dữ liệu được mã hoá.
+-> Peering: không phải thuê thiết bị -> không tốn chi phí
+
+-> Filter network: network security groups hoặc network virtual app
+
+-> Peering ko có tính chất bắc cầu, nếu muốn bắc cầu dùng vpn 
 
 ## Virtual Network Peering
+
+-> Cùng một thời điểm peering thì có 2 đường truyền: allow gateway transit và use remote gateways
+-> 
+
 
 ## Implement VNet Peering
 
