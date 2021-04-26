@@ -1,19 +1,11 @@
-# Implement Load Balancing and Network Security
+# 
 
-## Implement Azure Load Balancer
+## Overview
 
-## Implement an Application Gateway
+- Khi tạo vm thì mặc định có 2 thứ: ổ đĩa C (dữ liệu mất là phuc hồi được), ổ đĩa D(không phục hồi được)
+- Network security group áp đặc cho subnet và card mạng được (ít khi áp đặt cho card mạng)
+- Location nên đặt ở vị trí gần khách hàng nhất để máy chạy đc nhanh nhất
+- Khi tạo VM thì nó có đĩa riêng, network, interface có sẵn
+- 
 
-## Web Application Firewall
-
-## Implement Azure Firewall
-
-## Implement Azure Front Door
-
-## Implement Azure Traffic Manager
-
-## Implement Network Security Groups and Application Security Groups
-
-## Implement Azure Bastion
-
-## Review and Questions
+## 
